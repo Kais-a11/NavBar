@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app
+{
+  font-family: sans-serif;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+
+
+
+
+/* App.css */
+.form-group {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 10px;  
+  margin: 1% auto 1% 1%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 210%;
+}
+
+
+
+.form-group label {
+  margin-right: 10px; 
+}
+
+.form-group input{
+  border-radius: 15px;
+  font-size: 30px;
+
+}
+
+
+
+
+.plant {
+  display: flex; 
+  flex-wrap: wrap; 
+  margin: 20px; 
+}
+
+.plant div { 
+  margin: 10px; 
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  text-align: center; 
+}
+
+.plant img {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.plant h2 {
+  font-size: 18px; 
+  margin-bottom: 5px; 
+}
+
+.plant p {
+  font-size: 14px; 
+  margin-bottom: 5px; 
+}
+
